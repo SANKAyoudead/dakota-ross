@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export default function GetInTouch() {
   return (
@@ -63,7 +63,7 @@ export default function GetInTouch() {
           </div>
           <div className="row">
             <div className="col">
-              <button class="btn btn-secondary btn-lg" type="submit">
+              <button className="btn btn-secondary btn-lg" type="submit">
                 Submit form
               </button>
             </div>

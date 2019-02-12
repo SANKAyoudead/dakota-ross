@@ -1,25 +1,28 @@
 .sectionTop {
-  background: #000;
+  background: url('../water-bg.gif');
   width: 100%;
-  height: 40rem;
+  background-size: cover;
+  height: 35rem;
   text-align: center;
-  .verticalLine {
-    height: 20rem;
-    width: 0.1rem;
-    background: #fff;
-    margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  h2 {
+    font-weight: 600;
+    font-size: 3rem;
+    width: 40rem;
+    margin-bottom: 2rem;
   }
   p {
+    width: 38rem;
     margin: 0;
-    color: #fff;
-    font-weight: 600;
-    font-size: 2rem;
+    font-size: 1.7rem;
     span {
       margin-top: 0.7rem;
-      font-weight: 400;
+      font-weight: 600;
       font-size: 1.5rem;
-      font-style: italic;
-      display: block;
     }
   }
 }
