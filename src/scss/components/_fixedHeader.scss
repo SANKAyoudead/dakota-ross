@@ -1,16 +1,23 @@
 .fixedHeader {
   background: rgba(0, 0, 0, 0.7);
   width: 100%;
+  position: absolute;
   p {
     margin: 0;
     padding: 1rem;
     color: #fff;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 1.1rem;
+    @media only screen and (min-width: 768px) {
+      font-size: 2rem;
+    }
     span {
       text-decoration: italic;
       font-weight: 400;
-      font-size: 1.5rem;
+      font-size: 0.8rem;
+      @media only screen and (min-width: 768px) {
+        font-size: 1.5rem;
+      }
     }
   }
 }

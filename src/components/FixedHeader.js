@@ -4,7 +4,7 @@ export default function FixedHeader() {
   return (
     <div className="fixedHeader">
       <p>
-        DAKOTA ROSS / <span>FULL SITE COMING SOON</span>
+        Dakota Ross / <span>FULL SITE COMING SOON</span>
       </p>
     </div>
   );

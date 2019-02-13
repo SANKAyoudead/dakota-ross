@@ -2,27 +2,42 @@
   background: url('../water-bg.gif');
   width: 100%;
   background-size: cover;
-  height: 35rem;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   color: #fff;
+  height: 40rem;
+  @media only screen and (min-width: 768px) {
+    height: 52rem;
+  }
   h2 {
+    font-size: 1.7rem;
+    width: 20rem;
     font-weight: 600;
-    font-size: 3rem;
-    width: 40rem;
     margin-bottom: 2rem;
+    @media only screen and (min-width: 768px) {
+      font-size: 3rem;
+      width: 40rem;
+    }
   }
   p {
-    width: 38rem;
+    width: 20rem;
     margin: 0;
-    font-size: 1.7rem;
+    font-size: 1rem;
+    @media only screen and (min-width: 768px) {
+      width: 38rem;
+      margin: 0;
+      font-size: 1.7rem;
+    }
     span {
-      margin-top: 0.7rem;
-      font-weight: 600;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
+      @media only screen and (min-width: 768px) {
+        margin-top: 0.7rem;
+        font-weight: 600;
+        font-size: 1.5rem;
+      }
     }
   }
 }
